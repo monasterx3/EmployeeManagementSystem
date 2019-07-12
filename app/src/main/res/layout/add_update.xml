@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="30dp"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="221dp"
+        android:layout_height="141dp"
+        android:text="Employee Management System"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#2196F3"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:fontFamily="sans-serif-condensed-light" />
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_name"
+        android:padding="@dimen/view_padding"
+        android:textSize="@dimen/add_edit_textsize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_position"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_position"
+        android:padding="@dimen/view_padding"
+        android:textSize="@dimen/add_edit_textsize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_phone_no"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_phone_no"
+        android:padding="@dimen/view_padding"
+        android:textSize="@dimen/add_edit_textsize"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_email"
+        android:padding="@dimen/view_padding"
+        android:textSize="@dimen/add_edit_textsize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_salary"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_salary"
+        android:padding="@dimen/view_padding"
+        android:textSize="@dimen/add_edit_textsize"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_add_employee"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/button_padding"
+        android:background="#2196F3"
+        android:text="@string/add_employee"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/button_padding"
+        android:background="#2196F3"
+        android:text="@string/return_mm"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
